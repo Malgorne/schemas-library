@@ -33,7 +33,7 @@ const userSchema = new Schema({
     type: String,
     required: false
   },
-  // Use i18n-iso-countries to find the countries codes
+  // Use country-language to find the countries codes
   language: {
     type: String,
     validate: {

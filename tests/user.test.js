@@ -25,7 +25,7 @@ describe('# User model', () => {
     checkNotRequiredField(new UserModel(), 'resetPasswordToken', 'token1234567890');
   });
 
-  describe('## language (Code i18n-iso-countries)', () => {
+  describe('## language (Code country-language)', () => {
     const user = new UserModel();
     it('Language should be a valid country code', () => {
       set(user, 'language', 'A');

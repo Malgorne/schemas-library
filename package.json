@@ -12,7 +12,11 @@
       "email": "fritz.benj@gmail.com"
     }
   ],
-  "license": "MIT",
+  "license": "UNLICENCED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Malgorne/schemas-library"
+  },
   "scripts": {
     "build": "gulp",
     "lint": "gulp lint",
@@ -22,7 +26,6 @@
   },
   "dependencies": {
     "country-language": "^0.1.7",
-    "i18n-iso-countries": "^1.11.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.9.2"
   },
